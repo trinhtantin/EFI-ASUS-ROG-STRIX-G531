@@ -31,13 +31,13 @@ This EFI is specifically tailored for the following hardware. It may not work on
 
 ## ⚙️ Installation
 
-1.  Create a macOS Sonoma installer USB using the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/).
+1.  Create a macOS Sonoma installer USB using the [Dortania guide](https://github.com/trinhtantin/EFI-ASUS-ROG-STRIX-G531/releases).
 2.  Download or clone this repository.
 3.  Mount the USB's EFI partition.
 4.  Copy the **EFI** folder from this repository to the USB's EFI partition.
-5.  **IMPORTANT:** You **MUST** generate your own unique SMBIOS (Serial Number, MLB, SystemUUID) using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). Never use the SMBIOS from the sample config file, as it can get your Apple ID banned.
+5.  **IMPORTANT:** You **MUST** generate your own unique SMBIOS (Serial Number, MLB, SystemUUID) using [GenSMBIOS](https://github.com/trinhtantin/EFI-ASUS-ROG-STRIX-G531/releases). Never use the SMBIOS from the sample config file, as it can get your Apple ID banned.
       * Model to generate: `[e.g., iMac20,1]`
-6.  Configure your BIOS according to the Dortania guide [here](https://www.google.com/search?q=https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html%23intel-bios-settings). (Make sure to select the guide for your specific CPU generation).
+6.  Configure your BIOS according to the Dortania guide [here](https://github.com/trinhtantin/EFI-ASUS-ROG-STRIX-G531/releases%23intel-bios-settings). (Make sure to select the guide for your specific CPU generation).
 7.  Boot from the USB and proceed with the macOS installation.
 
 ### Post-Install
@@ -55,5 +55,5 @@ This project is for educational and research purposes only.
 
 ## 🙏 Credits
 
-  * **[Acidanthera](https://github.com/acidanthera)** for OpenCore and many essential kexts.
-  * **[Dortania](https://dortania.github.io/)** for the comprehensive OpenCore Install Guide.
+  * **[Acidanthera](https://github.com/trinhtantin/EFI-ASUS-ROG-STRIX-G531/releases)** for OpenCore and many essential kexts.
+  * **[Dortania](https://github.com/trinhtantin/EFI-ASUS-ROG-STRIX-G531/releases)** for the comprehensive OpenCore Install Guide.
